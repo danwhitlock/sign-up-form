@@ -41,6 +41,10 @@ body {
     font-family: Norse-Bold;
 }
 
+#photo-credit {
+    bottom: 0;
+}
+
 #form {
     width: 45%;
     display: flex;
@@ -62,7 +66,18 @@ body {
 
 #form-content {
     height: 30%;
+    width: 60%;
+    padding-left: 100px;
     display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.input {
+    display: flex;
+    flex-flow: column wrap;
+    width: 30%;
+    text-transform: uppercase;
 }
 
 #right-side {
